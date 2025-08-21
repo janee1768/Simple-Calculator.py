@@ -3,47 +3,47 @@ Simple Calculator
 
 This is a Simple Calculator built in Python. The program allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. It takes two numbers and an operation as input from the user, then returns the result.
 
-Features
+Features:
 
-Perform Addition (+)
+1.Perform Addition (+)
 
-Perform Subtraction (-)
+2.Perform Subtraction (-)
 
-Perform Multiplication (*)
+3.Perform Multiplication (*)
 
-Perform Division (/)
+4.Perform Division (/)
 
-Handles invalid operations with an error message
+5.Handles invalid operations with an error message
 
-How It Works
+How It Works:
 
-The program asks the user to input two numbers.
+~The program asks the user to input two numbers.
 
-The user selects an operation (+, -, *, /).
+~The user selects an operation (+, -, *, /).
 
-The program calculates and displays the result.
+~The program calculates and displays the result.
 
-If an invalid operator is entered, the program notifies the user.
+~If an invalid operator is entered, the program notifies the user.
 
-Example Run
+Example Run:
 Enter first number: 10  
 Enter second number: 5  
 Enter operation(+,-,*,/): *  
 Result: 50  
 
-Technologies Used
+Technologies Used:
 
 Python 3
 
-Future Improvements
+Future Improvements:
 
-Add support for more operations (e.g., modulus, power).
+~Add support for more operations (e.g., modulus, power).
 
-Improve error handling (e.g., division by zero).
+~Improve error handling (e.g., division by zero).
 
-Create a GUI version for better user experience.
+~Create a GUI version for better user experience.
 
-Installation & Usage
+~Installation & Usage
 
 Clone the repository:
 
@@ -55,19 +55,19 @@ Run the program:
 
 python simple_calculator.py
 
-Contributing
+Contributing:
 
 Contributions are welcome! If you'd like to improve this project, feel free to:
 
-Fork the repo
+~Fork the repo
 
-Create a new branch
+~Create a new branch
 
-Make your changes
+~Make your changes
 
-Submit a Pull Request
+~Submit a Pull Request
 
-License
+License:
 
 This project is licensed under the MIT License – feel free to use, modify, and distribute it.
 
