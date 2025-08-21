@@ -1,26 +1,77 @@
-### 📄 Description
 
-The Simple Calculator is a command-line Python program that lets users perform a single arithmetic operation between two numbers. When the program starts, it asks the user to:
+Simple Calculator
 
-1. Enter the first number
-2. Enter the second number
-3. Choose an operation: `+`, `-`, `*`, or `/`
+This is a Simple Calculator built in Python. The program allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. It takes two numbers and an operation as input from the user, then returns the result.
 
-Based on the operation selected:
+Features
 
-* `+` adds the two numbers
-* `-` subtracts the second number from the first
-* `*` multiplies the numbers
-* `/` divides the first number by the second
+Perform Addition (+)
 
-The result is then printed on the screen. If the user enters anything other than the four allowed symbols, the program shows **"Invalid operation"**.
+Perform Subtraction (-)
 
-This project helps beginners understand:
+Perform Multiplication (*)
 
-* How to take and convert user input
-* How to use `if`, `elif`, and `else` statements
-* Performing basic math operations
-* Error checking for invalid input
+Perform Division (/)
 
-It's a simple yet useful exercise to build your programming basics in Python.
+Handles invalid operations with an error message
+
+How It Works
+
+The program asks the user to input two numbers.
+
+The user selects an operation (+, -, *, /).
+
+The program calculates and displays the result.
+
+If an invalid operator is entered, the program notifies the user.
+
+Example Run
+Enter first number: 10  
+Enter second number: 5  
+Enter operation(+,-,*,/): *  
+Result: 50  
+
+Technologies Used
+
+Python 3
+
+Future Improvements
+
+Add support for more operations (e.g., modulus, power).
+
+Improve error handling (e.g., division by zero).
+
+Create a GUI version for better user experience.
+
+Installation & Usage
+
+Clone the repository:
+
+git clone https://github.com/your-username/simple-calculator.git
+cd simple-calculator
+
+
+Run the program:
+
+python simple_calculator.py
+
+Contributing
+
+Contributions are welcome! If you'd like to improve this project, feel free to:
+
+Fork the repo
+
+Create a new branch
+
+Make your changes
+
+Submit a Pull Request
+
+License
+
+This project is licensed under the MIT License – feel free to use, modify, and distribute it.
+
+Author
+
+👤 Mashal Arshad 
 
