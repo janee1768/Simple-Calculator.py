@@ -1,7 +1,7 @@
 
 Simple Calculator
 
-This is a Simple Calculator built in Python. The program allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. It takes two numbers and an operation as input from the user, then returns the result.
+This is a Simple Calculator built in Python. The program allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, division, power and square root. It takes two numbers and an operation as input from the user, then returns the result.
 
 Features:
 
@@ -13,13 +13,17 @@ Features:
 
 4.Perform Division (/)
 
-5.Handles invalid operations with an error message
+5.Perform Power (^)
+
+6.Perform Square root (sqrt)
+
+7.Handles invalid operations with an error message
 
 How It Works:
 
 ~The program asks the user to input two numbers.
 
-~The user selects an operation (+, -, *, /).
+~The user selects an operation (+, -, *, /, ^, sqrt).
 
 ~The program calculates and displays the result.
 
