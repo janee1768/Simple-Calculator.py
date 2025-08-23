@@ -17,7 +17,9 @@ This project showcases clean coding practices, error handling, and user input va
 
 📂 Project Structure
 Simple-Calculator/
+
 │── calculator.py   # Main program file
+
 │── README.md       # Project documentation
 
 ⚙️ How It Works
@@ -31,16 +33,23 @@ If an operation requires two numbers, the user is prompted for the second number
 The result is displayed with proper handling of invalid inputs and division by zero.
 
 💻 Example Run
+
 Enter number: 10
+
 Enter operation(+,-,*,/,^2): *
+
 Enter 2nd number: 5
+
 Answer: 50
 
 
 Another run with squaring:
 
+
 Enter number: 7
+
 Enter operation(+,-,*,/,^2): ^2
+
 Answer: 49
 
 🛡 Error Handling
