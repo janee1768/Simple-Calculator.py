@@ -4,6 +4,8 @@ Num_1 = int(input("Enter number: "))
 
 operation = input("Enter operation(+,-,*,/,^2): ")
 
+if operation in ['+','-','*','/']:
+   Num_2 = int(input("Enter 2nd number: "))
 while True:
     #Taking square of the number
 
@@ -11,10 +13,6 @@ while True:
     Num_1 = Num_1 ** 2 
     print("Answer: ",Num_1)
     break
-
-  if operation in ['+','-','*','/']:
-   Num_2 = int(input("Enter 2nd number: "))
-
 
     # Taking sum of the 2 numbers 
 
@@ -55,3 +53,4 @@ while True:
         
 #End 
     
+
